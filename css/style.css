@@ -1,0 +1,33 @@
+body {
+  background-image: url("../image/start.png");
+background-size: cover;
+background-repeat: no-repeat;
+}
+#welcome{
+  font-size: 40px;
+  padding-left: 20px;
+}
+#name{
+  padding: 20px;
+}
+#nameinput{
+  padding: 5px;
+  border-radius: 10px;
+  margin: 15px 0px 20px 15px;
+  display: block;
+  width: 200px;
+}
+#submitbutton{
+  float: right;
+margin-top: 350px;
+margin-right: 100px;
+width: 20%;
+height: 10%;
+padding:10px 20px;
+border-radius: 10px;
+font-size: 15px;
+}
+#submitbutton:hover{
+  background-color: #C4C4C4;
+  border: none;
+}

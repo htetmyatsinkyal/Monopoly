@@ -1,0 +1,256 @@
+
+.bgdiv{
+  background-image: url(../image/slight.png);
+  width: 900px;
+}
+.row {
+  display: table-row;
+}
+
+.cell {
+  outline: 0.1em solid black;
+  display: table-cell;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+
+}
+
+.square-name {
+  font-weight: bold;
+  padding: 5px;
+}
+
+.middle {
+  background-color: white;
+  outline: none;
+}
+
+.peachRectangle {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background: rgb(233, 180, 101);
+}
+.peachRectangle1 {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  background: rgb(233, 180, 101);
+  margin-right: 5px;
+}
+.pinkRectangle1 {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  background: rgb(233, 101, 101);
+  margin-right: 5px;
+}
+#player1-info_cash,
+#player2-info_cash {
+  float: right;
+}
+
+.pinkRectangle {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background: rgb(233, 101, 101);
+  margin-left: 5px;
+}
+
+.shake {
+  animation: shake 5s infinite;
+}
+@keyframes shake {
+  0% {
+    transform: rotate(10deg);
+  }
+  50% {
+    transform: rotate(-10deg);
+  }
+  100% {
+    transform: rotate(10deg);
+  }
+}
+
+#card1 {
+  border: 3px dashed black;
+  border-radius: 30px;
+  width: 100px;
+  height: 200px;
+  margin-left: 90px;
+  transform: rotate(65deg);
+  cursor: pointer;
+  position: absolute;
+  top: 350px;
+  left: 100px;
+}
+
+.animation {
+  animation-name: example;
+  animation-duration: 2s;
+}
+@keyframes example {
+  0% {
+    background-color: #7fb2be;
+  }
+  25% {
+    background-color: #bfa1db;
+  }
+  50% {
+    background-color: #6ee29a;
+  }
+  100% {
+    background-color: #ec7652;
+  }
+}
+#chance {
+  transform: rotate(-84deg);
+  font-size: 20px;
+  position: relative;
+  top: 70px;
+  text-align: center;
+}
+#chanceram,
+#chestram {
+  transform: rotate(-84deg);
+  position: relative;
+  top: 70px;
+  text-align: center;
+}
+
+#card2 {
+  border: 3px dashed black;
+  border-radius: 30px;
+  width: 100px;
+  height: 200px;
+  margin-right: 90px;
+  transform: rotate(65deg);
+  cursor: pointer;
+  position: absolute;
+  top: 700px;
+  left: 630px;
+}
+
+#chest {
+  transform: rotate(-84deg);
+  font-size: 20px;
+  position: relative;
+  top: 70px;
+  text-align: center;
+}
+
+#dice {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 550px;
+  left: 400px;
+}
+
+#dice img {
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+  position: relative;
+  top: 30px;
+}
+
+.hide {
+  display: none;
+}
+
+.color-bar {
+  height: 25px;
+  border-bottom: 2px solid #080808;
+  background: #5e3577;
+}
+.red-bar {
+  height: 25px;
+  border-bottom: 2px solid #080808;
+  background: #b43445;
+}
+.fa-cube {
+  color: rgb(82, 99, 197);
+  font-size: 30px;
+}
+.brown-bar {
+  height: 25px;
+  border-bottom: 2px solid #080808;
+  background: #b34418;
+}
+.playerPpt {
+  border: 1px solid black;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 10px;
+  width: 250px;
+}
+.property {
+  width: 300px;
+}
+
+.massage {
+  margin: 10px;
+}
+.fa-question {
+  font-size: 25px;
+  color: #f05a2d;
+}
+
+.fa-reply {
+  font-size: 25px;
+  color: #ca1818;
+}
+
+.fa-plane {
+  font-size: 25px;
+  color: rgb(99, 144, 211);
+}
+.fa-inbox {
+  font-size: 25px;
+  color: rgb(202, 143, 143);
+}
+
+.jail,
+.sittwe {
+  width: 25px;
+}
+.beach,
+.hino,
+.gyophyu,
+.maw,
+.flower,
+.airballoon,
+.kty,
+.kachin,
+.chin {
+  width: 35px;
+}
+.pagoda,
+.bagan,
+.man,
+.coin {
+  width: 45px;
+  height: 35px;
+}
+.light,
+.dolphin,
+.airplane,
+.cmc,
+.kayin {
+  width: 45px;
+}
+.popa,
+.inle,
+.rih,
+.myeik {
+  width: 40px;
+  height: 40px;
+  border-radius: 100px;
+}
+.cowcart {
+  width: 45px;
+  height: 25px;
+}
